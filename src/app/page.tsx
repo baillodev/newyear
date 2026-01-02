@@ -2,6 +2,7 @@
 
 import { NumberBlocks } from "@/components/blocks/number-blocks/number-blocks";
 import clsx from "clsx";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Home() {
@@ -38,6 +39,24 @@ export default function Home() {
         >
           Happy New Year <span className="text-[#32ed4e]">2026</span>
         </h2>
+      </div>
+
+      <div className="absolute bottom-8 w-full z-20 flex justify-center gap-8 text-sm font-light tracking-widest uppercase">
+        <Link 
+          href="https://baillo.dev/" 
+          target="_blank" 
+          className="text-white/30 hover:text-[#32ed4e] transition-colors duration-300 flex items-center gap-2"
+        >
+          Portfolio
+        </Link>
+        
+        <Link 
+          href="https://github.com/baillodev/newyear"
+          target="_blank" 
+          className="text-white/30 hover:text-[#32ed4e] transition-colors duration-300 flex items-center gap-2"
+        >
+          GitHub
+        </Link>
       </div>
     </div>
   );
