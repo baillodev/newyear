@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "New Year",
     images: [
       {
-        url: "/og-image.png",
+        url: "/images/2026.png",
         width: 1200,
         height: 630,
         alt: "New Year Celebration",
@@ -28,6 +28,6 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Happy New Year 2026 🎉",
     description: "Célébrez la nouvelle année avec notre site interactive!",
-    images: ["/og-image.png"],
+    images: ["/images/2026.png"],
   },
 };
