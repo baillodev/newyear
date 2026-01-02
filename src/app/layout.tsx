@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { oswwald } from "@/lib/fonts";
-import { metadata } from "@/lib/metadata";
+import { metadata as siteMetadata } from "@/lib/metadata";
 
-export const metadataData = metadata;
+export const metadata: Metadata = siteMetadata;
 
 export default function RootLayout({
   children,
@@ -11,7 +11,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body
         className={`${oswwald.variable} antialiased`}
       >

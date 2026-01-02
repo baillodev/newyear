@@ -21,7 +21,7 @@ export const metadata: Metadata = {
         alt: "New Year Celebration",
       },
     ],
-    locale: "en_EN",
+    locale: "fr_FR",
     type: "website",
   },
   twitter: {
