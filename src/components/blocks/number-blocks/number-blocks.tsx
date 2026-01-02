@@ -17,6 +17,7 @@ export function NumberBlocks({ active }: NumberBlocksProps) {
                     key={index}
                     values={values}
                     index={index}
+                    totalBlocks={NUMBER_BLOCKS.length}
                 />
             ))}
         </div>

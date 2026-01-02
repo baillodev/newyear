@@ -5,6 +5,7 @@ export type NumberBlocksProps = {
 export type NumberBlockProps = {
     values: number[];
     index: number;
+    totalBlocks: number;
 };
 
 export type NumberBlocksData = number[][];
